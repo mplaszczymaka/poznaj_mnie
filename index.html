@@ -14,22 +14,28 @@
 </head>
 <body>
     <div id="container">
-        <header class="page-header">
-            <h1>Cześć!<br>mam na imię <b>Michał</b></h1>
-            <h2>szukam swojej<br>pierwszej pracy w IT.</h2>
+        <header>
+            <hgroup>
+                <h1>Cześć!<br>mam na imię <b>Michał</b></h1>
+                <h2>szukam swojej<br>pierwszej pracy w IT.</h2>
+            </hgroup>
+
+
+            <nav>
+                <i class="far fa-arrow-alt-circle-down"></i>
+                <!--
+                    <ul>
+                    <li><a href="#kimjestem">kim jestem</a></li>
+                    <li><a href="#umiejetnosci">umiejętności</a></li>
+                    <li><a href="#kontakt">kontakt</a></li>
+                </ul>
+                -->
+            </nav>
+            <div style="clear:both"></div>
+
         </header>
-        <nav>
-            <ul>
-                <li><a href="#kimjestem">kim jestem</a></li>
-                <li><a href="#umiejetnosci">umiejętności</a></li>
-                <li><a href="#kontakt">kontakt</a></li>
-            </ul>
-        </nav>
-        <div style="clear:both"></div>
-
-
-        <section class="kimjestem">
-            <div class="container" id="kimjestem">
+        <main>
+            <section class="kimjestem">     
                 <div class="bluebox">
                     <p>
                         Jestem samoukiem. <br>
@@ -49,50 +55,49 @@
                         Potrafię kierować zespołem <br>
                     </p>
                 </div>
-            </div>
-        </section>
-        <section class="umiejetnosci">
+            </section>
+            <section class="umiejetnosci">
 
-            <div class="container" id="umiejetnosci">
-                <header>Nieustannie nabywam nowe umiejętności.</header>
-                <div class="firstSkills">
-                    <div class="firstSkillsLeft">
-                        Python<img src="img/2.png" /></br>
-                        Django<img src="img/2.png" /></br>
-                        Pandas<img src="img/1.png" /></br>
+                    <h1>Nieustannie nabywam nowe umiejętności.</h1>
+                    <div class="firstSkills">
+                        <div class="firstSkillsLeft">
+                            Python<img src="img/2.png" /></br>
+                            Django<img src="img/2.png" /></br>
+                            Pandas<img src="img/1.png" /></br>
+                        </div>
+                        <div class="firstSkillsRight">
+                            HTML<img src="img/2.png" /></br>
+                            CSS<img src="img/2.png" /></br>
+                            AWS<img src="img/1.png" /></br>
+                            GIT<img src="img/1.png" /></br>
+                        </div>
                     </div>
-                    <div class="firstSkillsRight">
-                        HTML<img src="img/2.png" /></br>
-                        CSS<img src="img/2.png" /></br>
-                        AWS<img src="img/1.png" /></br>
-                        GIT<img src="img/1.png" /></br>
-                    </div>
-                </div>
 
-                <div class="secondSkills">
-                    <div class="secondSkillsLeft">
-                        Photoshop<img src="img/1.png" /></br>
-                        Illustrator<img src="img/2.png" /></br>
-                        Lightroom<img src="img/3.png" /></br>
+                    <div class="secondSkills">
+                        <div class="secondSkillsLeft">
+                            Photoshop<img src="img/1.png" /></br>
+                            Illustrator<img src="img/2.png" /></br>
+                            Lightroom<img src="img/3.png" /></br>
+                        </div>
+                        <div class="secondSkillsRight">
+                            Angielski<img src="img/3.png" /></br>
+                            Adobe XD<img src="img/1.png" /></br>
+                            Excell<img src="img/2.png" /></br>
+                        </div>
                     </div>
-                    <div class="secondSkillsRight">
-                        Angielski<img src="img/3.png" /></br>
-                        Adobe XD<img src="img/1.png" /></br>
-                        Excell<img src="img/2.png" /></br>
+                
+            </section>
+            <footer>
+                <div class="container" id="kontakt" style="height: auto;">
+                    <p>Gdzie mnie znaleźć?</p>
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/michał-płaszczymąka"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="mailto:plaszczymaka.michal@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+                        <a href="https://github.com/mplaszczymaka"><i class="fab fa-github-square fa-2x"></i></a>
                     </div>
                 </div>
-            </div>
-        </section>
-        <footer>
-            <div class="container" id="kontakt" style="height: auto;">
-                <p>Gdzie mnie znaleźć?</p>
-                <div class="icons">
-                    <a href="https://www.linkedin.com/in/michał-płaszczymąka"><i class="fab fa-linkedin fa-2x"></i></a>
-                    <a href="mailto:plaszczymaka.michal@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
-                    <a href="https://github.com/mplaszczymaka"><i class="fab fa-github-square fa-2x"></i></a>
-                </div>
-            </div>
-        </footer>
+            </footer>
+        </main>
    </div>
 </body>
 </html>
