@@ -8,28 +8,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script src="https://kit.fontawesome.com/ef5689f1f5.js" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
     <header class="page-header">
         <h1>Cześć!<br>mam na imię <b>Michał</b></h1>
         <h2>szukam swojej<br>pierwszej pracy w IT.</h2>
-        <img src="img/path 1.png" class="circle1">
-        <nav>
-            <ul>
-                <li><a href="#kimjestem">kim jestem</a></li>
-                <li><a href="#">umiejętności</a></li>
-                <li><a href="#">kontakt</a></li>
-            </ul>
-        </nav>
-        <div style="clear:both"></div>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#kimjestem">kim jestem</a></li>
+            <li><a href="#umiejetnosci">umiejętności</a></li>
+            <li><a href="#kontakt">kontakt</a></li>
+        </ul>
+    </nav>
+    <div style="clear:both"></div>
 
-    <section>
+
+    <section class="kimjestem">
         <div class="container" id="kimjestem">
             <div class="bluebox">
                 <p>
-                    Jestem samoukiem. <br> 
-                    Intensywnie uczę się programowania</p>
+                    Jestem samoukiem. <br>
+                    Intensywnie uczę się programowania
+                </p>
             </div>
             <div class="bluebox">
                 <p>
@@ -45,10 +49,50 @@
                 </p>
             </div>
         </div>
+    </section>
+    <section class="umiejetnosci">
 
-        <div class="container">
-            dasda
+        <div class="container" id="umiejetnosci">
+            <header>Nieustannie nabywam nowe umiejętności.</header>
+            <div class="firstSkills">
+                <div class="firstSkillsLeft">
+                    Python<img src="img/2.png" /></br>
+                    Django<img src="img/2.png" /></br>
+                    Pandas<img src="img/1.png" /></br>
+                </div>
+                <div class="firstSkillsRight">
+                    HTML<img src="img/2.png" /></br>
+                    CSS<img src="img/2.png" /></br>
+                    AWS<img src="img/1.png" /></br>
+                    GIT<img src="img/1.png" /></br>
+                </div>
+            </div>
+
+            <div class="secondSkills">
+                <div class="secondSkillsLeft">
+                    Photoshop<img src="img/1.png" /></br>
+                    Illustrator<img src="img/2.png" /></br>
+                    Lightroom<img src="img/3.png" /></br>
+                </div>
+                <div class="secondSkillsRight">
+                    Angielski<img src="img/3.png" /></br>
+                    Adobe XD<img src="img/1.png" /></br>
+                    Excell<img src="img/2.png" /></br>
+                </div>
+            </div>
         </div>
     </section>
+    <footer>
+        <div class="container" id="kontakt" style="height: auto;">
+            <p>Gdzie mnie znaleźć?</p>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/michał-płaszczymąka"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="mailto:plaszczymaka.michal@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+                <a href="https://github.com/mplaszczymaka"><i class="fab fa-github-square fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/javascript.js"></script>
 </body>
 </html>

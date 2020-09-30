@@ -1,19 +1,32 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body
 {
     background-color: #C1C7D9;
+    background-image: url("../img/Path 1.png");
+    background-position: right;
+    background-position-y: 100%;
+    background-position-x: 120%;
+    background-repeat: no-repeat;
+    background-size: inherit;
+
     font-family: 'Roboto', sans-serif;
     color: #344059;
-    margin: 0px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    align-items: center;
 }
 
 
-.circle1
-{
+.circle1 {
     position: absolute;
     width: 3247px;
-    height: 3463px;
+    height: 700%;
     margin: -1050px -2860px;
-    z-index: 0;
+    margin-bottom:500px;
+    z-index: 1;
 }
 
 h1
@@ -39,14 +52,13 @@ h2
     z-index: 1;
 }
 
-
 nav {
-    width: 100%;
+    width: 87%;
     display: inline-block;
     text-align: center;
     font-size: 2.5vw;
     position: absolute;
-    bottom: 1vh;
+    bottom: 1vw;
 }
 
 ul > li
@@ -70,7 +82,7 @@ a:hover
 
 .page-header
 {
-    position: static;
+    position: relative;
     width: 100%;
     height: 100vh;
 }
@@ -78,13 +90,13 @@ a:hover
 
 .container {
     height: 100vh;
-    z-index:;
+    z-index:1000;
+    margin-bottom:80px;
 }
 
 .bluebox
 {
     background-color: #4F638C;
-    font-size: 2.5vw;
     top: 0px;
     width: 70%;
     height: 34%;
@@ -96,8 +108,8 @@ a:hover
     width: 100%;
     height: 100%;
     text-align: center;
-    font-size: 5vh;
-    top: 10%;
+    font-size: 5.5vh;
+    margin-top: 4%;
     color: #C1C7D9;
 }
 
@@ -123,6 +135,101 @@ a:hover
     top: 3%;
 }
 
-.container:nth-child(2) {
+.umiejetnosci {
     background-color: #8498BF;
+    padding-bottom: 20px;
+    height: 55vw;
+}
+
+
+.container > header {
+    font-size: 3vw;
+    text-align: right;
+    margin-right: 10%;
+    padding: 2vw 0px;
+    color: #4F638C;
+    z-index: 1000;
+    position: relative;
+}
+
+
+
+.firstSkills {
+    position: relative;
+    float:right;
+    text-align: right;
+    display: inline-flex;
+    padding: 2% 10%;
+    background-color: #C1C7D9;
+    font-size: 3vw;
+    color: #4F638C;
+    z-index: 1000;
+    box-shadow: #4F638C -2vw 2vw;
+}
+
+.firstSkills > *  {
+    line-height: 4vw;
+}
+
+.firstSkillsLeft {
+    margin-right: 20px;
+}
+
+
+.firstSkills > * > img {
+    height: 2.5vw;
+    margin-left: 10px;
+    padding-top: 0.1px;
+}
+
+.secondSkills > * > img {
+    height: 2.4vw;
+    margin-left: 10px;
+    padding-top: 0.1px;
+}
+
+
+.secondSkills {
+    position: relative;
+    float: left;
+    margin-top: 7vw;
+    text-align: right;
+    display: inline-flex;
+    padding: 2% 8%;
+    margin-right: 6vw;
+    background-color: #C1C7D9;
+    font-size: 3vw;
+    color: #4F638C;
+    z-index: 1000;
+    box-shadow: #4F638C 2vw 2vw;
+}
+
+.secondSkillsLeft {
+    margin-right: 20px;
+}
+
+
+
+footer {
+    position: static;
+    z-index: 1000;
+    font-size: 5vw;
+    line-height: 20px;
+    text-align: center;
+}
+
+.icons {
+    letter-spacing: 10px;
+}
+
+.fas:hover {
+    -webkit-transform: scale(1.5);
+}
+
+.fab:hover {
+    -webkit-transform: scale(1.5);
+}
+
+a {
+    color: #344059;
 }
