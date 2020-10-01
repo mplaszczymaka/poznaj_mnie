@@ -142,6 +142,8 @@ main {
     position: relative;
     height: 100vh;
     background-color: #8498BF;
+    font-size: 1.6rem;
+    line-height: 30px;
 }
 
     .skills h1 {
@@ -149,7 +151,39 @@ main {
         font-size: 1.5rem;
         text-align: right;
         padding: 20px;
-        color: #C1C7D9;
-
+        color: #344059;
+        line-height: 25px;
     }
 
+.skills img {
+    width: 136px;
+    margin: 5px 10px;
+    right: 5px;
+    float: right;
+}
+
+.first_skills {
+    position: absolute;
+    background-color: #C1C7D9;
+    width: 82vw;
+    top: 15%;
+    right: 0;
+    padding: 10px;
+    box-shadow: #344059 20px 20px;
+}
+
+.skills p {
+    display:block;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.second_skills {
+    position: absolute;
+    background-color: #C1C7D9;
+    top: 60%;
+    width: 82vw;
+    padding: 10px;
+    box-shadow: #344059 20px 20px;
+}
+    
