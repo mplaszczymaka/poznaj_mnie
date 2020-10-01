@@ -94,16 +94,13 @@ main {
     width: 100%;
 }
 
-.kimjestem {
+.who_am_i {
     position: relative;
     height: 100vh;
     background-color: #C1C7D9;
 }
 
-.umiejetnosci {
-    position: relative;
-    height: 100vh;
-}
+
 
 
 .bluebox {
@@ -140,4 +137,19 @@ main {
     position: absolute;
     bottom: 0;
 }
+
+.skills {
+    position: relative;
+    height: 100vh;
+    background-color: #8498BF;
+}
+
+    .skills h1 {
+        font-weight: 400;
+        font-size: 1.5rem;
+        text-align: right;
+        padding: 20px;
+        color: #C1C7D9;
+
+    }
 
