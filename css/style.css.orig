@@ -1,15 +1,21 @@
-
+<<<<<<< HEAD
+=======
 * {
     margin: 0;
     padding: 0;
 }
 
+>>>>>>> mobile_first_refactor
 html {
     scroll-behavior: smooth;
 }
 
-
+<<<<<<< HEAD
+body
+{
+=======
 body {
+>>>>>>> mobile_first_refactor
     background-color: #C1C7D9;
     background-image: url("../img/Path 1.png");
     background-position: right;
@@ -17,7 +23,19 @@ body {
     background-position-x: 120%;
     background-repeat: no-repeat;
     background-size: inherit;
+
     font-family: 'Roboto', sans-serif;
+<<<<<<< HEAD
+    color: #344059;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    align-items: center;
+}
+
+
+.circle1 {
+    position: absolute;
+=======
     font-size: 10px;
     color: #4F638C;
     box-sizing: border-box;
@@ -35,6 +53,7 @@ body {
 .circle1
 {
     position: fixed;
+>>>>>>> mobile_first_refactor
     width: 3247px;
     height: 700%;
     margin: -1050px -2860px;
@@ -84,16 +103,24 @@ a:hover
     color: #344059;
 }
 
-
+<<<<<<< HEAD
+nav {
+    width: 87%;
+    display: inline-block;
+=======
 /* navigation */
 
 nav {
     width: 100%;
+>>>>>>> mobile_first_refactor
     text-align: center;
     font-size: 2rem;
     position: absolute;
-
+<<<<<<< HEAD
+    bottom: 1vw;
+=======
     bottom: 4%;
+>>>>>>> mobile_first_refactor
 }
 
 nav li {
@@ -120,17 +147,28 @@ nav a:hover span {
 }
 
 
+<<<<<<< HEAD
+.page-header
+{
+    position: relative;
+=======
 
 main {
     position: relative;
     margin-top: 100vh;
+>>>>>>> mobile_first_refactor
     width: 100%;
 }
 
 #who_am_i {
     position: relative;
     height: 100vh;
+<<<<<<< HEAD
+    z-index:1000;
+    margin-bottom:80px;
+=======
     background-color: #C1C7D9;
+>>>>>>> mobile_first_refactor
 }
 
 
@@ -139,11 +177,17 @@ main {
 .bluebox {
     display: block;
     background-color: #4F638C;
+<<<<<<< HEAD
+    top: 0px;
+    width: 70%;
+    height: 34%;
+=======
     font-size: 1.5rem;
     width: 100%;
     height: 25vh;
     text-align: center;
     vertical-align:middle;
+>>>>>>> mobile_first_refactor
     position: relative;
     color: #C1C7D9;
 }
@@ -153,7 +197,15 @@ main {
     top: 50%;
     left: 50%;
     width: 100%;
+<<<<<<< HEAD
+    height: 100%;
+    text-align: center;
+    font-size: 5.5vh;
+    margin-top: 4%;
+    color: #C1C7D9;
+=======
     transform: translate(-50%, -50%);
+>>>>>>> mobile_first_refactor
 }
 
 .bluebox:nth-child(2) {
@@ -188,6 +240,104 @@ main {
     line-height: 25px;
 }
 
+<<<<<<< HEAD
+.umiejetnosci {
+    background-color: #8498BF;
+    padding-bottom: 20px;
+    height: 55vw;
+}
+
+
+.container > header {
+    font-size: 3vw;
+    text-align: right;
+    margin-right: 10%;
+    padding: 2vw 0px;
+    color: #4F638C;
+    z-index: 1000;
+    position: relative;
+}
+
+
+
+.firstSkills {
+    position: relative;
+    float:right;
+    text-align: right;
+    display: inline-flex;
+    padding: 2% 10%;
+    background-color: #C1C7D9;
+    font-size: 3vw;
+    color: #4F638C;
+    z-index: 1000;
+    box-shadow: #4F638C -2vw 2vw;
+}
+
+.firstSkills > *  {
+    line-height: 4vw;
+}
+
+.firstSkillsLeft {
+    margin-right: 20px;
+}
+
+
+.firstSkills > * > img {
+    height: 2.5vw;
+    margin-left: 10px;
+    padding-top: 0.1px;
+}
+
+.secondSkills > * > img {
+    height: 2.4vw;
+    margin-left: 10px;
+    padding-top: 0.1px;
+}
+
+
+.secondSkills {
+    position: relative;
+    float: left;
+    margin-top: 7vw;
+    text-align: right;
+    display: inline-flex;
+    padding: 2% 8%;
+    margin-right: 6vw;
+    background-color: #C1C7D9;
+    font-size: 3vw;
+    color: #4F638C;
+    z-index: 1000;
+    box-shadow: #4F638C 2vw 2vw;
+}
+
+.secondSkillsLeft {
+    margin-right: 20px;
+}
+
+
+
+footer {
+    position: static;
+    z-index: 1000;
+    font-size: 5vw;
+    line-height: 20px;
+    text-align: center;
+}
+
+.icons {
+    letter-spacing: 10px;
+}
+
+.fas:hover {
+    -webkit-transform: scale(1.5);
+}
+
+.fab:hover {
+    -webkit-transform: scale(1.5);
+}
+
+a {
+=======
 #skills img {
     width: 136px;
     margin: 5px 10px;
@@ -246,5 +396,6 @@ footer .icons {
 
 .bold {
     font-weight: 700;
+>>>>>>> mobile_first_refactor
     color: #344059;
 }
