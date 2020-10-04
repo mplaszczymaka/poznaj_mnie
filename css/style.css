@@ -92,8 +92,7 @@ nav {
     text-align: center;
     font-size: 2rem;
     position: absolute;
-
-    bottom: 4%;
+    bottom: 7%;
 }
 
 nav li {
@@ -112,7 +111,7 @@ nav a:hover span {
     width: 33%;
     display: block;
     position: fixed;
-    bottom: 9%;
+    bottom: 12%;
     transform: translateX(-5px);
     font-size: 1rem;
     font-weight: 700;
