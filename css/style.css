@@ -7,7 +7,7 @@ body {
     background-color: #C1C7D9;
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
-    color: #344059;
+    color: #4F638C;
     box-sizing: border-box;
 }
 
@@ -38,19 +38,18 @@ header {
     width: 100vw;
 }
 
-header hgroup {
-    position: absolute;
-    top: 30%;
-    left: 10%;
-}
+    header hgroup {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
 
-header hgroup h1
-{
-    font-weight: 500;
-    letter-spacing: -3px;
-    font-size: 2.2rem;
-    line-height: 37px;
-}
+    header hgroup h1 {
+        font-weight: 500;
+        letter-spacing: -3px;
+        font-size: 2.2rem;
+        line-height: 37px;
+    }
 
 header hgroup h2
 {
@@ -59,22 +58,7 @@ header hgroup h2
     font-size: 1.5rem;
 }
 
-
-nav {
-    width: 100%;
-    text-align: center;
-    font-size: 3rem;
-    position: absolute;
-    bottom: 4%;
-}
-
-ul > li
-{
-    width: 33%;
-    list-style-type: none;
-    float: left;
-
-}
+/* links */
 
 a
 {
@@ -86,6 +70,40 @@ a:hover
 {
     color: #344059;
 }
+
+/* navigation */
+
+nav {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 4%;
+}
+
+nav li {
+    width: 33%;
+    list-style-type: none;
+    float: left;
+}
+
+nav a span {
+    display:none;
+}
+
+nav a:hover span {
+    color: #4F638C;
+    padding: 5px;
+    width: 33%;
+    display: block;
+    position: fixed;
+    bottom: 9%;
+    transform: translateX(-5px);
+    font-size: 1rem;
+    font-weight: 700;
+    z-index: 1;
+}
+
 
 
 main {
@@ -197,7 +215,7 @@ footer {
 }
 
 footer h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 400;
     padding: 20px;
 }
@@ -212,4 +230,12 @@ footer .icons {
 
 footer a {
     font-size: 4rem;
+}
+
+footer i {
+    margin-left: 10px;
+}
+
+.bold {
+    color: #344059;
 }
