@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #C1C7D9;
     font-family: 'Roboto', sans-serif;
@@ -112,7 +116,7 @@ main {
     width: 100%;
 }
 
-.who_am_i {
+#who_am_i {
     position: relative;
     height: 100vh;
     background-color: #C1C7D9;
@@ -156,7 +160,7 @@ main {
     bottom: 0;
 }
 
-.skills {
+#skills {
     position: relative;
     height: 100vh;
     background-color: #8498BF;
@@ -164,7 +168,7 @@ main {
     line-height: 30px;
 }
 
-.skills h1 {
+#skills h1 {
     font-weight: 400;
     font-size: 1.5rem;
     text-align: right;
@@ -173,7 +177,7 @@ main {
     line-height: 25px;
 }
 
-.skills img {
+#skills img {
     width: 136px;
     margin: 5px 10px;
     right: 5px;
@@ -190,7 +194,7 @@ main {
     box-shadow: #344059 20px 20px;
 }
 
-.skills p {
+#skills p {
     display:block;
     text-align: right;
     white-space: nowrap;
@@ -211,7 +215,6 @@ footer {
     width: 100%;
     background-color: #C1C7D9;
     position: relative;
-
 }
 
 footer h1 {
@@ -228,9 +231,6 @@ footer .icons {
     transform: translate(-50%, -40%);
     font-size: 3.3rem;
     line-height: 2;
-}
-
-footer a {
 }
 
 .bold {
