@@ -66,9 +66,9 @@ header {
 
 header hgroup h2
 {
-    margin-top: 2vh;
+    margin-top: 1.8vh;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 /* links */
@@ -246,4 +246,46 @@ footer .icons {
 .bold {
     font-weight: 700;
     color: #344059;
+}
+
+/* media queries */
+
+@media (orientation:landscape) {
+    header hgroup {
+        left: 7%;
+        top: 20%;
+    }
+
+    header hgroup h2 {
+        font-size: 2rem;
+        margin-top: 5vh;
+    }
+
+    .header-br {
+        display: none;
+    }
+
+    nav {
+        font-size: 3rem;
+    }
+}
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+        ...
+    }
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+        
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        ...
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        ...
 }
