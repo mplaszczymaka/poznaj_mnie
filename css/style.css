@@ -90,9 +90,9 @@ a:hover
 nav {
     width: 100%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
     position: absolute;
-    bottom: 7%;
+    bottom: 9%;
 }
 
 nav li {
@@ -111,7 +111,7 @@ nav a:hover span {
     width: 33%;
     display: block;
     position: fixed;
-    bottom: 12%;
+    bottom: 20%;
     transform: translateX(-5px);
     font-size: 1rem;
     font-weight: 700;
