@@ -270,22 +270,115 @@ footer .icons {
     }
 }
 
-    /* Small devices (landscape phones, 576px and up) */
-    @media (min-width: 576px) {
-        ...
+    /* Small devices (phones, 576px and up) */
+@media (min-width: 576px) and (orientation:portrait) {
+
+    header hgroup {
+        position: absolute;
+        top: 20%;
+        left: 5%;
     }
 
-    /* Medium devices (tablets, 768px and up) */
-    @media (min-width: 768px) {
-        
+    header hgroup h1 {
+        font-size: 3.3rem;
+        line-height: 65px;
     }
 
-    /* Large devices (desktops, 992px and up) */
-    @media (min-width: 992px) {
-        ...
+    header hgroup h2 {
+        font-size: 2.6rem;
     }
 
-    /* Extra large devices (large desktops, 1200px and up) */
-    @media (min-width: 1200px) {
-        ...
+    nav {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 576px) and (orientation:landscape) {
+    header hgroup h1 {
+        font-size: 3.3rem;
+        line-height: 64px;
+    }
+
+    header hgroup h2 {
+        font-size: 2.3rem;
+    }
+
+    nav {
+        font-size: 3.2rem;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (orientation:portrait) {
+    nav {
+        font-size: 6rem;
+    }
+}
+
+
+@media (min-width: 768px) and (orientation:landscape) {
+    nav {
+        font-size: 4rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (orientation:portrait) {
+    header hgroup h1 {
+        font-size: 5.3rem;
+        line-height: 96px;
+    }
+
+    header hgroup h2 {
+        font-size: 4.6rem;
+    }
+
+    nav {
+        font-size: 6rem;
+    }
+}
+
+@media (min-width: 992px) and (orientation:landscape) {
+    header hgroup h1 {
+        font-size: 4.3rem;
+        line-height: 72px;
+    }
+
+    header hgroup h2 {
+        font-size: 3.4rem;
+    }
+
+    nav {
+        font-size: 5.5rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (orientation:portrait) {
+    header hgroup h1 {
+        font-size: 7rem;
+        line-height: 126px;
+    }
+
+    header hgroup h2 {
+        font-size: 5.5rem;
+    }
+
+    nav {
+        font-size: 8.6rem;
+    }
+}
+
+@media (min-width: 1200px) and (orientation:landscape) {
+    header hgroup h1 {
+        font-size: 5.4rem;
+        line-height: 76px;
+    }
+
+    header hgroup h2 {
+        font-size: 4rem;
+    }
+
+    nav {
+        font-size: 6rem;
+    }
 }
