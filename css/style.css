@@ -251,6 +251,7 @@ footer .icons {
 /* media queries */
 
 @media (orientation:landscape) {
+    /* header */
     header hgroup {
         left: 7%;
         top: 20%;
@@ -268,13 +269,38 @@ footer .icons {
     nav {
         font-size: 3rem;
     }
-}
+
+    /* who_am_i */
+    .bluebox {
+        font-size: 1.3rem;
+        width: 70vw;
+        height: 35vh;
+        text-align: center;
+    }
+
+    .bluebox > p {
+        left: 50%;
+        margin-left: 0;
+        transform: translate(-50%, -50%);
+    }
+
+    .bluebox:nth-child(2) {
+        width: 60vw;
+        height: 40vh;
+        margin-left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .bluebox:nth-child(3) {
+        bottom: 0;
+        right: 0;
+    }
 
     /* Small devices (phones, 576px and up) */
-@media (min-width: 576px) and (orientation:portrait) {
+@media screen (min-width: 576px) and (orientation:portrait) {
 
     header hgroup {
-        position: absolute;
         top: 20%;
         left: 5%;
     }
@@ -314,10 +340,15 @@ footer .icons {
     }
 }
 
-
 @media (min-width: 768px) and (orientation:landscape) {
+    /* header */
     nav {
         font-size: 4rem;
+    }
+
+    /* who_am_i*/
+    .bluebox {
+        font-size: 1.6rem;
     }
 }
 
@@ -338,6 +369,7 @@ footer .icons {
 }
 
 @media (min-width: 992px) and (orientation:landscape) {
+    /* header */
     header hgroup h1 {
         font-size: 4.3rem;
         line-height: 72px;
@@ -349,6 +381,11 @@ footer .icons {
 
     nav {
         font-size: 5.5rem;
+    }
+
+    /* who_am_i*/
+    .bluebox {
+        font-size: 2.2rem;
     }
 }
 
@@ -369,6 +406,8 @@ footer .icons {
 }
 
 @media (min-width: 1200px) and (orientation:landscape) {
+    
+    /* header */
     header hgroup h1 {
         font-size: 5.4rem;
         line-height: 76px;
@@ -380,5 +419,10 @@ footer .icons {
 
     nav {
         font-size: 6rem;
+    }
+
+    /* who_am_i*/
+    .bluebox {
+        font-size: 3rem;
     }
 }
