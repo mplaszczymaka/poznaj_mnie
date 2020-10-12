@@ -297,6 +297,28 @@ footer .icons {
         right: 0;
     }
 
+    /* skills */
+    #skills {
+        font-size: 3vw;
+        line-height: 30px;
+    }
+
+    .first_skills {
+        width: 38vw;
+        top: 19%;
+        right: 27px;
+        padding: 4px;
+        box-shadow: #344059 15px 15px;
+    }
+
+    .second_skills {
+        top: 33%;
+        width: 42vw;
+        padding: 4px;
+        box-shadow: #344059 15px 15px;
+        left: 25px;
+    }
+
     /* Small devices (phones, 576px and up) */
 @media screen (min-width: 576px) and (orientation:portrait) {
 
@@ -332,7 +354,12 @@ footer .icons {
     nav {
         font-size: 3.2rem;
     }
-}
+
+    /* skills */
+    .first_skills {
+        right: 44px
+    }
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (orientation:portrait) {
     nav {
@@ -350,79 +377,138 @@ footer .icons {
     .bluebox {
         font-size: 1.6rem;
     }
-}
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (orientation:portrait) {
-    header hgroup h1 {
-        font-size: 5.3rem;
-        line-height: 96px;
-    }
-
-    header hgroup h2 {
-        font-size: 4.6rem;
-    }
-
-    nav {
-        font-size: 6rem;
-    }
-}
-
-@media (min-width: 992px) and (orientation:landscape) {
-    /* header */
-    header hgroup h1 {
-        font-size: 4.3rem;
-        line-height: 72px;
-    }
-
-    header hgroup h2 {
-        font-size: 3.4rem;
-    }
-
-    nav {
-        font-size: 5.5rem;
-    }
-
-    /* who_am_i*/
-    .bluebox {
+    /* skills */
+    #skills h1 {
         font-size: 2.2rem;
     }
-}
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (orientation:portrait) {
-    header hgroup h1 {
-        font-size: 7rem;
-        line-height: 126px;
+    #skills {
+        font-size: 3.2vw;
+        line-height: 35px;
     }
 
-    header hgroup h2 {
-        font-size: 5.5rem;
+    .first_skills {
+        right: 6%;
+        box-shadow: #344059 20px 20px;
     }
 
-    nav {
-        font-size: 8.6rem;
-    }
-}
-
-@media (min-width: 1200px) and (orientation:landscape) {
-    
-    /* header */
-    header hgroup h1 {
-        font-size: 5.4rem;
-        line-height: 76px;
+    .second_skills {
+        top: 33%;
+        width: 42vw;
+        padding: 8px;
+        box-shadow: #344059 20px 20px;
+        left: 3%;
     }
 
-    header hgroup h2 {
-        font-size: 4rem;
+    #skills img {
+        width: 163px;
     }
 
-    nav {
-        font-size: 6rem;
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (orientation:portrait) {
+        header hgroup h1 {
+            font-size: 5.3rem;
+            line-height: 96px;
+        }
+
+        header hgroup h2 {
+            font-size: 4.6rem;
+        }
+
+        nav {
+            font-size: 6rem;
+        }
     }
 
-    /* who_am_i*/
-    .bluebox {
-        font-size: 3rem;
+    @media (min-width: 992px) and (orientation:landscape) {
+        /* header */
+        header hgroup h1 {
+            font-size: 4.3rem;
+            line-height: 72px;
+        }
+
+        header hgroup h2 {
+            font-size: 3.4rem;
+        }
+
+        nav {
+            font-size: 5.5rem;
+        }
+
+        /* who_am_i*/
+        .bluebox {
+            font-size: 2.2rem;
+        }
+
+        /* skills */
+        #skills {
+            font-size: 3.5vw;
+            line-height: 49px;
+        }
+
+        #skills h1 {
+            font-size: 2.8rem;
+        }
+
+        .first_skills {
+            right: 5%;
+            padding: 12px;
+            box-shadow: #344059 25px 25px;
+        }
+
+        #skills img {
+            width: 235px;
+        }
+
+        .second_skills {
+            top: 47%;
+            width: 42vw;
+            padding: 12px;
+            box-shadow: #344059 25px 25px;
+            left: 3%;
+        }
     }
-}
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) and (orientation:portrait) {
+        header hgroup h1 {
+            font-size: 7rem;
+            line-height: 126px;
+        }
+
+        header hgroup h2 {
+            font-size: 5.5rem;
+        }
+
+        nav {
+            font-size: 8.6rem;
+        }
+    }
+
+    @media (min-width: 1200px) and (orientation:landscape) {
+
+        /* header */
+        header hgroup h1 {
+            font-size: 5.4rem;
+            line-height: 76px;
+        }
+
+        header hgroup h2 {
+            font-size: 4rem;
+        }
+
+        nav {
+            font-size: 6rem;
+        }
+
+        /* who_am_i*/
+        .bluebox {
+            font-size: 3rem;
+        }
+
+        /* skills */
+        #skills {
+            font-size: 5.2vw;
+            line-height: 35px;
+        }
+    }
