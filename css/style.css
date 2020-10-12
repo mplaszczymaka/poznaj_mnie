@@ -433,7 +433,7 @@ footer .icons {
         }
 
         nav {
-            font-size: 5.5rem;
+            font-size: 4.5rem;
         }
 
         /* who_am_i*/
@@ -489,8 +489,8 @@ footer .icons {
 
         /* header */
         header hgroup h1 {
-            font-size: 5.4rem;
-            line-height: 76px;
+            font-size: 4.5vw;
+            line-height: 5vw;
         }
 
         header hgroup h2 {
@@ -498,7 +498,7 @@ footer .icons {
         }
 
         nav {
-            font-size: 6rem;
+            font-size: 5rem;
         }
 
         /* who_am_i*/
@@ -508,7 +508,27 @@ footer .icons {
 
         /* skills */
         #skills {
-            font-size: 5.2vw;
-            line-height: 35px;
+            font-size: 3.7vw;
+            line-height: 4.1vw;
+        }
+
+        #skills h1 {
+            font-size: 3.8rem;
+            padding: 55px 3% 0 0;
+        }
+
+        .first_skills {
+            right: 3%;
+            width: 41vw;
+            top: 20%;
+        }
+
+        #skills img {
+            width: 23vw;
+        }
+
+        .second_skills {
+            width: 47vw;
+            top: 40%;
         }
     }
