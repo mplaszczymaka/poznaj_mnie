@@ -101,6 +101,12 @@ nav li {
     float: left;
 }
 
+nav li:hover {
+    padding: 0 0 2% 0;
+    height: 2rem;
+    transition: all 1s ease;
+}
+
 nav a span {
     display:none;
 }
@@ -109,7 +115,7 @@ nav a:hover span {
     color: #4F638C;
     padding: 5px;
     width: 33%;
-    display: block;
+    display: none;
     position: fixed;
     bottom: 20%;
     transform: translateX(-5px);
