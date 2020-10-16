@@ -324,7 +324,7 @@ footer .icons {
     }
 
     /* Small devices (phones, 576px and up) */
-@media screen (min-width: 576px) and (orientation:portrait) {
+@media (min-width: 576px) and (orientation:portrait) {
 
     header hgroup {
         top: 20%;
@@ -342,6 +342,10 @@ footer .icons {
 
     nav {
         font-size: 4rem;
+    }
+
+    #skills p {
+        font-size: 4.5vw;
     }
 }
 
